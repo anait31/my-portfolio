@@ -1,10 +1,11 @@
 import banner_image from '../assets/me.webp'
 import { FaDownload, FaDribbble, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
-import { motion } from "motion/react"
+import { motion } from "motion/react";
+
 const Banner = () => {
     return (
         <div className=''>
-            <div className="hero py-8">
+            <div className="hero pt-28 mb-16">
                 <div className="hero-content  flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">
                         <motion.img whileHover={{ rotate: -1, borderColor: '#8750f7' }} // Scale up by 10% on hover
