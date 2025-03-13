@@ -3,10 +3,15 @@ const Header = () => {
     const links = <>
         <li><a>Home</a></li>
         <li><a>About</a></li>
+        <li><a>Resume</a></li>
+        <li><a>Works</a></li>
+        <li><a>Skills</a></li>
+        <li><a>Testimonials</a></li>
+        <li><a>Contact</a></li>
     </>
     return (
         <div className="">
-            <div className="navbar max-w-6xl mx-auto shadow-sm">
+            <div className="navbar  shadow-sm">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,7 +31,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Download Resume</a>
+                    <a className="btn">Hire Me!</a>
                 </div>
             </div>
         </div>
